@@ -1,0 +1,219 @@
+#+title:      Artificial Intelligence and Consumer Protection
+#+date:       [2026-04-12 Sun 09:55]
+#+filetags:   :dydaktyka:prezentacja:
+#+identifier: 20260412T095545
+
+:REVEALJS_OPTIONS:
+#+AUTHOR: Jakub J. Szczerbowski
+#+REVEAL_SLIDE_HEADER: AI and Consumer Protection…
+#+REVEAL_SLIDE_FOOTER: —Jakub J. Szczerbowski🄯
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><h4>dr hab. <b>%a</b>, prof. UŁ 🄯</h4><h4><b>University of Lodz</b><br />Faculty of Law and Administration</h4>
+#+OPTIONS: num:t toc:nil date:nil timestamp:nil
+#+REVEAL_THEME: white
+#+REVEAL_SINGLE_FILE: t
+#+REVEAL_EXTRA_ATTR: style="height: 100%; overflow-y: auto !important"
+#+REVEAL_HEAD_PREAMBLE: <style>
+#+REVEAL_HEAD_PREAMBLE: .slide-header { position: relative; font-size: 0.5em !important; opacity: 0.8; text-align: right; }
+#+REVEAL_HEAD_PREAMBLE: .slide-footer { position: fixed; bottom: 0px; right: 0px; font-size: 0.3em !important; opacity: 0.6; text-align: right; color: blue; }
+#+REVEAL_HEAD_PREAMBLE: .reveal h1, .reveal h2, .reveal h3, .reveal h4 { text-transform: none !important; }
+#+REVEAL_HEAD_PREAMBLE: .reveal p, .reveal li { text-align: justify !important; }
+#+REVEAL_HEAD_PREAMBLE: </style>
+#+REVEAL_PLUGINS: (notes zoom)
+#+REVEAL_VERSION: 4
+:END:
+
+* About this lecture
+- Audience: students at the University of Valencia
+- Normative scope: European Union law
+  + AI Act — Regulation (EU) 2024/1689
+  + GDPR — Regulation (EU) 2016/679
+  + Proposal of the AI liability directive
+  + Future regulation and application
+- Available at:
+  + https://j4kub5.github.io/vlc (viewing)
+  + https://github.com/j4kub5/vlc (download)
+
+** Main goals
+- AI concepts and a bit of history
+- AI Act characteristics
+- core concept of technology law
+- fraudulent consumer practices
+- Future of AI regulation
+
+* What is AI?
+Artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence.
+
+** History: Antiquity and medieval
+- artificial beings and automatons in various mythologies
+- algorithmic thinking (Aristotle’s syllogism, means-ends analysis - algorithmic planning)
+- alchemy: artificial creation of life
+
+** History: 1600-1900
+- mechanical calculator (Pascal 1642)
+- induction (Hume 1739)
+- foundations of Bayesian logic (Bayes 1763)
+- Frankenstein (Shelly 1818)
+- programmable mechanical computer (Babbage, Lovelace 1822)
+- Boolean algebra (Boole 1854)
+
+** History: 1901-1940
+- reduction of mathematics to formal logic (Russel, Whitehead 1913)
+- chess playing automaton: El Ajedrecista (Quevedo 1914)
+- Tractatus Logico-Philosophicus (Wittgenstein 1921)
+- limits of algorythmic theorem proving (Gödel 1931)
+- Lambda calculus (Church 1935)
+- program-controlled computer patent (Zuse 1936)
+- theory of computation (Turing 1937)
+
+** History: 1941-1960
+- Game theory (von Neumnn, Morgenstern 1945)
+- Turing test (Turing 1950)
+- Three laws of robotics (Asimov 1950)
+- the term 'artificial intelligence is first used (McCarthy, Minsky, Rochester 1956)
+
+** History: winters and booms
+- First winter: 1974-1980 (not enough computer power, training problem, Moravec paradox)
+- Boom: 1980-1987 (expert systems and neural networks)
+- Second winter: 1990s (collapse of market for expert systems)
+- Boom (big data, deep learning, powerful CPUs and GPUs): 2005-2017
+- LLM (transformer architecture, e.g. AI Chat…agentic AI): 2017—
+- Is the winter coming?
+
+* Definition in the AI Act
+#+begin_quote
+‘AI system’ means a
+- machine-based system that is designed to
+- operate with varying levels of autonomy and that
+- may exhibit adaptiveness after deployment, and that, for
+- explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as
+  + predictions,
+  + content,
+  + recommendations, or
+  + decisions that can
+  + influence physical or virtual environments;
+#+end_quote
+— AI Act, Article 3(1)
+
+* Concept: Information asymmetry
+A knowledge gap where one party holds superior information.
+
+Why is it a problem?
+- used car
+- health insurance
+- unexplainable AI (black box)
+
+* Unfair practices
+** Dark patterns
+ Interfaces designed to trick users into unintended choices.
+
+ These often manifest as:
+ - forced continuity  or roach motels that make it easy to sign up but nearly impossible to cancel
+ - exploiting cognitive biases to undermine consumer autonomy
+
+** Manipulation (algorithmic nudging)
+Algorithmic nudging and subliminal techniques used to distort behavior.
+
+- systems that exploit vulnerabilities related to user’s profile to significantly distort their behavior in a manner that causes or is likely to cause harm.
+- practices are often so subtle that the consumer is unaware they are being steered
+
+** Algorithmic bias
+Discrimination resulting from flawed training data or logic.
+
+- a "feedback loop" where historical prejudices are baked into future automated decision
+- consequence: systemic exclusion or disadvantage of protected groups in critical areas such as
+  + mortgage applications
+  + insurance premium calculations
+  + recruitment processes
+
+** Fake reviews
+AI-generated social proof used to deceive markets.
+
+- mass production of hyper-realistic, yet fraudulent, endorsement
+- erosion of trust in digital marketplaces
+- difficult for consumers to distinguish between authentic user experiences and fake endorsements
+
+** Dynamic pricing
+Real-time price adjustments based on consumer profiling (beyond "surge pricing").
+
+Using AI to estimate an individual's specific "maximum willingness to pay" causing
+- charging vulnerable consumers higher prices based on their
+  + urgent needs (e.g. health, natural disaster)
+  + location
+  + lack of an alternative
+
+* Concept: Risk
+What is risk?
+
+#+begin_center
+$probability * result = risk$
+#+end_center
+
+Risk in the AI Act:
+#+begin_quote
+‘risk’ means the combination of the probability of an occurrence of harm and the severity of that harm;
+#+end_quote
+— Article 3(2).
+
+** Concept: Risk mitigation
+Any actions to reduce the probability or impact of harm (reduce risk) by:
+- Avoidance: Bypassing the risk entirely.
+- Reduction: Lessening the severity through safeguards.
+- Transference: Shifting responsibility (e.g., insurance).
+- Acceptance: Preparing for consequences without action.
+
+* Concept: Technological neutrality
+
+** Adoption
+Regulation (EU) 2024/1689 (AI Act): Explicitly utilizes a functional definition of AI to remain adaptable to future scientific shifts Official Journal of the EU.
+
+Regulation (EU) 2016/679 (GDPR): States in Recital 15 that the protection of individuals should be technologically neutral to avoid being tied to specific processing techniques.
+
+Regulation (EU) 2022/2065 (Digital Services Act): Regulates intermediary services based on their role in the information society, irrespective of the software infrastructure employed.
+
+Regulation (EU) No 910/2014 (eIDAS): Provides a framework for electronic signatures that focuses on security outcomes rather than specific hardware or software protocols.
+
+Regulation (EU) 2023/1114 (MiCA): Applies to crypto-assets and related services regardless of whether they utilize Distributed Ledger Technology (DLT) or other technologies.
+
+** Garante case
+The "Garante Case" in Italy (2023), where the Data Protection Authority (Garante per la protezione dei dati personali) applied GDPR requirements to ChatGPT.
+
+What it means?
+- the good old GDPR applies to new shiny tech like ChatGPT
+- innovation does not automatically create legal vacuum
+
+* Risk levels in the AI Act
+1. Unacceptable Risk: Prohibited practices (e.g., social scoring).
+2. High Risk: Heavily regulated systems (e.g., credit scoring, education, employment) requiring human oversight and data quality.
+3. Limited Risk: Transparency duties (e.g., disclosing that a chatbot is an AI).
+4. Minimal Risk: Unregulated (e.g., spam filters).
+
+* 10^25 FLOPs?
+LLM boom happened during drafting of the AI Act.
+
+|             | Traditional AI            | Generative AI*              |
+|-------------+---------------------------+-----------------------------|
+| Application | Determined by system type | Determined by user decision |
+| User        | Specialist                | Unspecified                 |
+| Risk        | Domain-specific           | Emergent                    |
+
+\ast General purpose AI
+
+General Purpose AI (GPAI) models are classified as having systemic risk if the cumulative amount of compute used for their training is greater than 10^25 FLOPs.
+
+* Proposal of the AI liability directive
+The AILD proposal specifically (2022) sought to address the "causality gap"—the technical difficulty for a victim to prove how an AI’s specific internal logic directly led to a harmful output.
+
+It used two main tools:
+- presumption of causality (which assumes the AI caused the harm if the provider is found to be non-compliant with safety rules),
+- access to evidence mechanism allowing courts to order the disclosure of technical logs
+
+** AILD withdrawal
+AILD proposal was withdrawn in 2025. What now?
+- Application of National Liability Laws: Cases not covered by the Product Liability Directive (PLD)—such as those involving professional use or pure economic loss—will be governed by national fault-based liability or specific member state strict liability for high-risk activities.
+- AI Act as the Standard of Care: National courts are expected to use the AI Act as a de facto definition of "due care," meaning that a breach of the Act’s safety and transparency obligations will likely be used to establish legal fault.
+
+* The end
+Thank you!
+
+You can reach me at:
+https://www.uni.lodz.pl/en/employee/jakub-szczerbowski

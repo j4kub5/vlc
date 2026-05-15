@@ -1,0 +1,31 @@
+:REVEALJS_OPTIONS:
+#+REVEAL_SLIDE_FOOTER: —Jakub J. Szczerbowski🄯
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3>
+#+REVEAL_TITLE_SLIDE: <div class="title-split-layout">
+#+REVEAL_TITLE_SLIDE:   <div class="title-author-info">
+#+REVEAL_TITLE_SLIDE:     <h4>dr hab. <b>%a</b>, prof. UŁ 🄯</h4>
+#+REVEAL_TITLE_SLIDE:     <h4><b>University of Lodz</b><br />Faculty of Law and Administration</h4>
+#+REVEAL_TITLE_SLIDE:   </div>
+#+REVEAL_TITLE_SLIDE:   <img src="qr.png" alt="QR Code" class="title-qr-code" />
+#+REVEAL_TITLE_SLIDE: </div>
+
+#+OPTIONS: num:t toc:nil date:nil timestamp:nil
+#+REVEAL_THEME: white
+#+REVEAL_SINGLE_FILE: t
+#+REVEAL_EXTRA_ATTR: style="height: 100%; overflow-y: auto !important"
+
+#+REVEAL_HEAD_PREAMBLE: <style>
+#+REVEAL_HEAD_PREAMBLE: /* Układ specyficzny dla slajdu tytułowego */
+#+REVEAL_HEAD_PREAMBLE: .title-split-layout { display: flex; justify-content: center; align-items: center; gap: 3em; margin-top: 2em; }
+#+REVEAL_HEAD_PREAMBLE: .title-author-info h4 { text-align: left !important; margin: 0.2em 0 !important; }
+#+REVEAL_HEAD_PREAMBLE: .title-qr-code { height: 250px; margin: 0; object-fit: contain; }
+#+REVEAL_HEAD_PREAMBLE:
+#+REVEAL_HEAD_PREAMBLE: /* Główne style prezentacji */
+#+REVEAL_HEAD_PREAMBLE: .slide-header { position: relative; font-size: 0.5em !important; opacity: 0.8; text-align: right; }
+#+REVEAL_HEAD_PREAMBLE: .slide-footer { position: fixed; bottom: 0px; right: 0px; font-size: 0.3em !important; opacity: 0.6; text-align: right; color: blue; }
+#+REVEAL_HEAD_PREAMBLE: .reveal h1, .reveal h2, .reveal h3, .reveal h4 { text-transform: none !important; }
+#+REVEAL_HEAD_PREAMBLE: .reveal p, .reveal li { text-align: justify !important; }
+#+REVEAL_HEAD_PREAMBLE: </style>
+#+REVEAL_PLUGINS: (notes zoom)
+#+REVEAL_VERSION: 4
+:END:

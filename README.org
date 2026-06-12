@@ -31,13 +31,14 @@
 ** What’s not included?
 - fresh water consumption
 - electronic waste
+- carbon emissions
 
 * MiCA Provisions
-- Issuers' Duty: Must publish whitepapers disclosing the "principal adverse impacts on the climate" caused by their consensus mechanisms, under:
+- *Issuers' Duty:* Must publish whitepapers disclosing the "principal adverse impacts on the climate" caused by their consensus mechanisms, under:
   + Article 6(1) point (j): For general/utility tokens.
   + Article 19(1) point (h): For asset-referenced tokens (ARTs).
   + Article 51(1) point (g): For electronic money tokens (EMTs).
-- Service Providers' Obligations (Article 66(5)): Mandates crypto-asset service providers (CASPs) to display these climate impact metrics prominently on their websites.
+- *Service Providers' Obligations* (Article 66(5)): Mandates crypto-asset service providers (CASPs) to display these climate impact metrics prominently on their websites.
 
 * AI Act Provisions
 - *Obligated Subjects (Article 53(1)):* Energy obligations apply strictly to *providers* (natural or legal persons) who develop and place General Purpose AI (GPAI) models on the EU market.
@@ -48,10 +49,9 @@
 - *The Modification Trigger:* Downstream actors only inherit duties if they perform a /"significant modification"/ (e.g., fine-tuning with compute over 1/3 of original training).
 
 * Commonalities
-- Strategy: transparency.
+- *Strategy*: transparency.
 - *Soft Governance:* Neither law directly caps carbon emissions or bans heavy computing; both reject technology bans in favor of disclosure.
 - *Market-Driven:* Both assume public disclosures will steer investors and enterprise buyers toward cleaner tech.
-- *The Standardization Race (2026):* Moving from voluntary corporate estimates to legally binding, uniform calculation formulas. By enforcing audited baselines (like the finalized MiCA sustainability RTS and the EU's May 2026 consultation on unified AI energy labels), regulators are shutting down the ability of tech firms to cherry-pick favorable metrics to greenwash their footprints.
 
 * Gap 1: The Value Chain Blindspot
 - *The Information Firewall:* Upstream providers report energy data to the *EU AI Office (Art 53(1)(a))*, but this data is *not public*.
@@ -69,13 +69,10 @@
 - *The Regulatory Silence:* The AI Act mandates energy tracking but leaves water footprints entirely unregulated.
 
 * The Future
-- *Value Chain Transparency:* Mandate the "pass-through" of energy metrics from upstream creators to downstream integrators.
-- *Inference Reporting:* Mandate direct, physical "server-level energy reporting" for live queries.
-- *Additionality Requirements:* Legally force tech firms to build *new* clean power rather than siphoning existing local grids.
-
-- *Human Over Machine:* Technology must protect—not cannibalize—the resources that sustain human life.
-- *Unified Policy:* Treat MiCA and the AI Act as integrated environmental policies.
-- *Our Core Choice:* "Pursuit of artificial minds must not cost us our physical home."
+- *Value Chain Transparency*
+- *Inference Reporting*
+- *Human Over Machine:* Technology must protect—not destroy—the resources that sustain human life.
+- *Unified Policy:* Evolution — from separate to integrated environmental policy for tech law.
 
 * The end
 Thank you!
